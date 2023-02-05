@@ -23,6 +23,6 @@ const lista = [{...datosPersonales},
         eresDesarrollador: false
     }]
 
-    lista.sort((a,b)=>a.edad - b.edad)
+    lista.sort((a,b)=>b.edad - a.edad)
 
     
